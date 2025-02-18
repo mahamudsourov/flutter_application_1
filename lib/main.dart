@@ -17,12 +17,32 @@ class Test extends StatelessWidget {
           centerTitle: true,
           elevation: 10.5,
         ),
-        body: Text(
-          "Flutter Application",
-           style: TextStyle(
-              fontSize: 30,
-          ),
-          ),
+        body: Row(
+          children: [
+            Text(
+              "Hi, ",
+              style: TextStyle(
+                color: Colors.red,
+                fontSize: 30,
+              ),
+            ),
+            
+            Text(
+              "This is ",
+              style: TextStyle(
+                color: Colors.yellow,
+                fontSize: 30,
+              ),
+            ),
+            Text(
+              "Flutter ",
+              style: TextStyle(
+                color: Colors.blue,
+                fontSize: 30,
+              ),
+            )
+          ],
+        )
       ),
     );
   }
