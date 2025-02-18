@@ -50,7 +50,7 @@ class Test extends StatelessWidget {
                 ),
               ],
             ),
-            SizedBox(height: 20), 
+             
             Row(
               children: [
                 Icon(Icons.star, color: Colors.grey, size: 30), 
